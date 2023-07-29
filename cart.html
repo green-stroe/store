@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Store</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="shop.html">Tienda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">Entrega</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li id="lg-bag"><a href="#" class="active"><i class="far fa-shopping-bag"></i></a></li>
+                <a id="close" href="#"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+
+        <h2>#carrito</h2>
+        <p>¡Agrega tu cupón y obtén 5% de descuento!</p>
+
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Eliminar</td>
+                    <td>Imagen</td>
+                    <td>Producto</td>
+                    <td>Precio</td>
+                    <td>Cantidad</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Jeeter Juice Live Resin</td>
+                    <td>$1,100.00</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>$1,100.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/n1.jpg" alt=""></td>
+                    <td>Mavricks Muha Meds</td>
+                    <td>$950.00</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>$950.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/iplay-grape.jpg" alt=""></td>
+                    <td>Iplay X-box</td>
+                    <td>$500.00</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>$500.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/iplay-banana-ice.jpg" alt=""></td>
+                    <td>Iplay Max</td>
+                    <td>$250.00</td>
+                    <td><input type="number" value="1" name="" id=""></td>
+                    <td>$250.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="cuopon">
+            <h3>Agrega un Cupón</h3>
+            <div>
+                <input type="text" name="" id="" placeholder="Ingresa tu cupón">
+                <button class="normal">Enter</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Pago Total</h3>
+            <table>
+                <tr>
+                    <td>Carrito Subtotal</td>
+                    <td>$ 2,800</td>
+                </tr>
+                <tr>
+                    <td>Envío</td>
+                    <td>$ 500</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 3,300</strong></td>
+                </tr>
+            </table>
+            <a href="https://api.whatsapp.com/send?phone=+528261005671&text=Hola%2C+mi+pago+es+de+$3,300" target="_blank"><button class="normal">Procede con el pago</button></a>
+        </div>
+    </section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contacto</h4>
+            <p><strong>Dirección: </strong>Nuevo León, México</p>
+            <p><strong>Telefono:</strong> +52 826 100 5671</p>
+            <p><strong>Horarios:</strong> 24/7 Horas</p>
+            <div class="follow">
+                <h4>Siguenos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f" herf="https://www.facebook.com/weedshopMRLS"></i>
+                    <i class="fab fa-tiktok"></i>
+                    <i class="fab fa-instagram" herf="https://www.instagram.com/thegreenstore28/"></i>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Información</h4>
+            <a href="blog.html">Sobre Nosotros</a>
+            <a href="about.html">Entrega</a>
+            <a href="#">Politica de Privacidcad</a>
+            <a href="#">Terminos & Condiciones</a>
+            <a href="contact.html">Contactanos</a>
+        </div>
+
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">Inicia</a>
+            <a href="#">Ver Carrito</a>
+            <a href="#">Mi Lista</a>
+            <a href="#">Rastrear mi Pedido</a>
+            <a href="#">Ayuda</a>
+        </div>
+
+        <div class="col install">
+            <h4>Instala Nuestra App</h4>
+            <p>Para App Store o Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Formas de pago </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2023 - Green Store</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
